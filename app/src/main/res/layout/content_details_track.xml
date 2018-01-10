@@ -36,6 +36,8 @@
                 style="?android:attr/progressBarStyleHorizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_above="@+id/artist_name_label"
+                android:layout_toEndOf="@+id/track_path"
                 android:indeterminate="true"
                 android:visibility="invisible" />
 
@@ -66,7 +68,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:enabled="false"
-                    android:hint="Título"
+                    android:hint="@string/title"
                     android:imeOptions="actionNext"
                     android:inputType="text|textNoSuggestions"
                     android:maxLength="50"
@@ -88,7 +90,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:enabled="false"
-                    android:hint="Artista"
+                    android:hint="@string/artist"
                     android:imeOptions="actionNext"
                     android:inputType="text|textNoSuggestions"
                     android:maxLength="50"
@@ -133,7 +135,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:enabled="false"
-                    android:hint="Género"
+                    android:hint="@string/genre"
                     android:imeOptions="actionNext"
                     android:inputType="text|textNoSuggestions"
                     android:maxLength="40"
@@ -155,7 +157,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:enabled="false"
-                    android:hint="Número de pista"
+                    android:hint="@string/track_number"
                     android:imeOptions="actionNext"
                     android:inputType="number"
                     android:maxLength="4"
@@ -177,7 +179,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:enabled="false"
-                    android:hint="Año"
+                    android:hint="@string/track_year"
                     android:imeOptions="actionDone"
                     android:inputType="number"
                     android:maxLength="4"
@@ -197,7 +199,6 @@
                 android:gravity="center_vertical"
                 android:singleLine="true"
                 android:text="@string/message_no_cover"
-                android:textAlignment="viewStart"
                 android:textSize="16sp"
                 android:visibility="visible" />
 
@@ -217,7 +218,6 @@
                     android:gravity="center_vertical"
                     android:singleLine="true"
                     android:text="0 mb"
-                    android:textAlignment="viewStart"
                     android:visibility="visible" />
 
                 <TextView
@@ -244,7 +244,6 @@
                     android:gravity="center_vertical"
                     android:singleLine="true"
                     android:text="@string/not_supported"
-                    android:textAlignment="viewStart"
                     android:visibility="visible" />
 
                 <TextView
@@ -298,7 +297,6 @@
                     android:gravity="center_vertical"
                     android:singleLine="true"
                     android:text="0'00''"
-                    android:textAlignment="viewStart"
                     android:visibility="visible" />
 
                 <TextView

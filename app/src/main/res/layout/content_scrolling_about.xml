@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="mx.dev.franco.automusictagfixer.ScrollingAboutActivity"
+    tools:context="com.rucksack.automusic.ScrollingAboutActivity"
     tools:showIn="@layout/activity_scrolling_about">
 
     <LinearLayout
@@ -35,33 +35,6 @@
             android:textAlignment="center"
             android:textSize="24sp" />
 
-        <!--TextView
-            android:id="@+id/develop_by"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginEnd="10dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/developed_by"
-            android:textAlignment="center"
-            android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/developer"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginEnd="10dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
-            android:drawablePadding="8dp"
-            android:drawableStart="@drawable/ic_public_white_24px"
-            android:fontFamily="sans-serif"
-            android:text="@string/developer"
-            android:textAlignment="center"
-            android:textSize="18sp" /-->
-
         <TextView
             android:id="@+id/tech_used"
             android:layout_width="match_parent"
@@ -70,7 +43,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:text="@string/technologies_used"
-            android:textAlignment="center"
+            android:textAlignment="textStart"
             android:textSize="18sp" />
 
         <TextView
@@ -120,6 +93,17 @@
             android:drawableStart="@drawable/ic_public_white_24px"
             android:text="Créditos imagen en drawer"
             android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/develop_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/developed_by"
+            android:textSize="18sp" />
+
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>

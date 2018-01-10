@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:id="@+id/rootContainer"
-    tools:Context="mx.dev.franco.automusictagfixer.MainActivity">
+    tools:Context="com.rucksack.automusic.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/mainAppBarLayout"
@@ -35,6 +35,7 @@
         android:scaleType="fitCenter"
         app:elevation="6dp"
         app:borderWidth="0dp"
+        app:theme="@style/CustomFab"
         android:theme="@style/CustomFab"
         app:pressedTranslationZ="12dp"
         app:srcCompat="@drawable/ic_magic_wand_auto_fix_button" />
@@ -47,6 +48,7 @@
         android:scaleType="fitCenter"
         app:elevation="6dp"
         app:borderWidth="0dp"
+        app:theme="@style/CustomFab"
         android:theme="@style/CustomFab"
         app:pressedTranslationZ="12dp"
         app:srcCompat="@drawable/ic_stop_white_24dp" />

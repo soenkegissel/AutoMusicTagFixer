@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="mx.dev.franco.automusictagfixer">
+    package="com.rucksack.automusic">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
-        android:name=".AutoMusicTagFixer"
         android:allowBackup="true"
         android:configChanges="orientation|screenSize"
         android:hardwareAccelerated="true"
@@ -48,7 +47,7 @@
             android:theme="@style/QuestionsTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="mx.dev.franco.automusictagfixer.MainActivity" />
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".TrackDetailsActivity"
@@ -57,8 +56,9 @@
             android:theme="@style/DetailsTrackDialogTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="mx.dev.franco.automusictagfixer.MainActivity" />
+                android:value=".MainActivity" />
         </activity>
+
         <activity
             android:name=".ScrollingAboutActivity"
             android:label="@string/title_activity_scrolling_about"
@@ -66,7 +66,7 @@
             android:theme="@style/AboutTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="mx.dev.franco.automusictagfixer.MainActivity" />
+                android:value="com.rucksack.automusic.MainActivity" />
         </activity>
         <activity
             android:name=".SettingsActivity"
@@ -75,21 +75,9 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/SettingsStyle" />
 
-        <activity
-            android:name=".FullscreenViewerActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_fullscreen_viewer"
-            android:parentActivityName=".TrackDetailsActivity"
-            android:theme="@style/FullscreenTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="mx.dev.franco.automusictagfixer.TrackDetailsActivity" />
-        </activity>
-
-        <!-- This provider is necessary because in android >= 7 doesn't allow to access directly to files -->
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="mx.dev.franco.automusictagfixer.fileProvider"
+            android:authorities="com.rucksack.automusic.fileProvider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -97,17 +85,16 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
-        <!-- We need this service for start or schedule GNSDK API initialization -->
+        <!-- We need this service for checking internet connection and handling the gracenote api initialization -->
         <service
-            android:name=".services.ScheduleJobService"
+            android:name=".services.DetectorInternetConnection"
             android:label="DetectionService"
             android:permission="android.permission.BIND_JOB_SERVICE" />
-
-        <!-- Service that runs in background thread and have the ability to run if app is closed -->
         <service
             android:name=".services.FixerTrackService"
-            android:exported="false"
-            android:label="FixerTrackService" />
+            android:label="FixerTrackService">
+
+        </service>
 
         <!--
  ATTENTION: This was auto-generated to add Google Play services to your project for
@@ -117,10 +104,7 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <meta-data
-            android:name="io.fabric.ApiKey"
-            android:value="3d4995f2cd3e5757faec4a2dadce6e00f2d0814e"
-            />
+
     </application>
 
 </manifest>

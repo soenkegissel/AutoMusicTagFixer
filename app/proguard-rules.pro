@@ -15,8 +15,17 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
--dontwarn org.jaudiotagger.**
--dontwarn com.google.android.gms.**
+
+-dontwarn javax.**
+-dontwarn java.**
+-dontwarn sun.security.**
+-dontwarn org.**
+
+-keep public class * extends com.bumptech.glide.module.AppGlideModule
+-keep class com.bumptech.glide.GeneratedAppGlideModuleImpl
 -keep class com.gracenote.** { *; }
--keep class org.jaudiotagger.** { *; }
+-keep class javax.** { *; }
+-keep class java.** { *; }
+-keep class org.** { *; }
+-keep class sun.security.** { *; }
 -keep class android.support.v7.widget.SearchView { *; }

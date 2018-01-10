@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     style="?android:windowNoTitle"
     android:id="@+id/content"
     android:layout_width="match_parent"
@@ -17,10 +18,12 @@
             android:layout_width="144dp"
             android:layout_height="144dp"
             android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/imageView4"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="49dp"
             android:src="@drawable/ic_sentiment_very_satisfied_white_24px"
-            app:srcCompat="@drawable/ic_sentiment_very_satisfied_white_24px" />
+            app:srcCompat="@drawable/ic_sentiment_very_satisfied_white_24px"
+            tools:ignore="UnknownId" />
 
         <TextView
             android:id="@+id/textView5"

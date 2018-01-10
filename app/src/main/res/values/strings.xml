@@ -1,85 +1,85 @@
-<resources>
-    <string name="app_name">AutoMusicTagFixer</string>
+﻿<resources>
+    <string name="app_name" translatable="false">"Auto Music "</string>
 
-    <string name="omit">OMITIR</string>
-    <string name="nextSlide">SIGUIENTE</string>
+    <string name="omit">OMIT</string>
+    <string name="nextSlide">NEXT</string>
 
-    <string name="welcome">¡Bienvenido!</string>
-    <string name="step_1">AutoMusicTagFixer te ayuda a mantener más organizada tu biblioteca musical.</string>
-    <string name="step_2">¿Cómo te ayuda? Corrigiendo el nombre del archivo, título de canción, artista, álbum, etc, incluso la imagen del álbum.</string>
-    <string name="step_3">Solo déjala buscar y listar las canciones de tu smartphone.</string>
-    <string name="step_4">Luego toca una cancion para corregirla en modo manual, semiautomático o automático.</string>
-    <string name="step_5">O selecciona varias canciones y pulsa el botón amarillo para corregirlas automaticamente, una tras otra sin que hagas algo más, solo esperar.</string>
-    <string name="ok_button_last_slide">ENTENDIDO</string>
+    <string name="welcome">Welcome!</string>
+    <string name="step_1">Auto Music helps you to keep your music library more organized.</string>>
+    <string name="step_2">How does it help you? Fixing the filename, song title, artist, album, etc, even the album picture.</string>
+    <string name="step_3">Just let it look for and index the songs in your smartphone.</string>
+    <string name="step_4">Then play a song to fix it in manual mode, semiautomatic or automatic.</string>
+    <string name="step_5">Or select multiple songs and press the yellow button to fix them automatically, one after the other without you doing anything else, only waiting.</string>
+    <string name="ok_button_last_slide">UNDERSTOOD</string>
 
 
-    <string name="title_activity_folder_choser">Biblioteca de música</string>
-    <string name="title_dialog_permision">Permiso requerido</string>
+    <string name="title_activity_folder_choser">Music library </string>
+    <string name="title_dialog_permision">Permission required </string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="options">Configuración</string>
-    <string name="rate">Calificar</string>
-    <string name="share">Compartir</string>
-    <string name="search_song">Buscar canción</string>
-    <string name="select_all_items">Seleccionar todas</string>
-    <string name="share_and_rate">Comparte y califica</string>
+    <string name="options">Settings</string>
+    <string name="rate">Rate</string>
+    <string name="share">Share</string>
+    <string name="search_song">Search Song </string>
+    <string name="select_all_items">Select all</string>
+    <string name="share_and_rate">Share and rate </string>
 
-    <string name="message_no_data_updated">No se pudo actualizar la canción: </string>
-    <string name="message_data_update">Actualización correcta.</string>
-    <string name="image_too_big">Imagen muy grande, reduce su tamaño.</string>
-    <string name="error_load_image">Error al leer la imagen.</string>
-    <string name="title_downloaded_cover_art_dialog">Guardar carátula</string>
-    <string name="description_downloaded_cover_art_dialog">¿Deseas guardar la carátula como?</string>
-    <string name="as_cover_art">Carátula</string>
-    <string name="as_file">Imagen</string>
-    <string name="no_cover_art_found">No se encontró carátula.</string>
-    <string name="no_cover_art">No se encontró carátula</string>
-    <string name="cover_art_found">Se encontró la siguiente carátula.</string>
-    <string name="cover_updated">Carátula actualizada.</string>
-    <string name="cover_removed">Carátula removida.</string>
+    <string name="message_no_data_updated">Song update not possible: </string>
+    <string name="message_data_update">Correct update.</string>
+    <string name="image_too_big">Picture is very big, reduce its size.</string>
+    <string name="error_load_image">Error while reading the picture.</string>
+    <string name="title_downloaded_cover_art_dialog">Save cover </string>
+    <string name="description_downloaded_cover_art_dialog">Do you wish to save the cover as?</string>
+    <string name="as_cover_art">Cover</string>
+    <string name="as_file">Picture</string>
+    <string name="no_cover_art_found">No cover art found.</string>
+    <string name="no_cover_art">No cover art found </string>
+    <string name="cover_art_found">The following cover was found.</string>
+    <string name="cover_updated">Updated cover.</string>
+    <string name="cover_removed">Removed cover.</string>
 
-    <string name="no_available">No disponible</string>
-    <string name="explanation_permission_access_files">Para encontrar tus canciones automaticamente, es necesario conceder el permiso solicitado por el cuadro de diálogo que aparecerá después que pulses Aceptar.</string>
-    <string name="ok_button">Aceptar</string>
-    <string name="cancel_button">Cancelar</string>
-    <string name="empty_message">Falta esta etiqueta.</string>
-    <string name="not_allowed_characters_message">Parece que hay ciertos caracteres inválidos. </string>
-    <string name="data_too_long_message">Esta etiqueta es muy larga.</string>
-    <string name="file_is_processing">Espera a que el modo automático termine de corregir esta canción.</string>
-    <string name="title_dialog_file_error">Error en archivo</string>
-    <string name="file_error">No se puede leer la canción por que fue movida, eliminada ó renombrada, ¿Deseas quitarla de la lista?</string>
+    <string name="no_available">Not available</string>
+    <string name="explanation_permission_access_files">To find your songs automatically, it’s necessary to grant the requested permission in the dialog box that will appear after you press Agree.</string>
+    <string name="ok_button">Agree</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="empty_message">Label missing.</string>
+    <string name="not_allowed_characters_message">It looks like there are certain invalid characters. </string>
+    <string name="data_too_long_message">This label is too long.</string>
+    <string name="file_is_processing">Wait until the automatic mode finishes fixing this song.</string>
+    <string name="title_dialog_file_error">Error in file </string>
+    <string name="file_error">The song can’t be read because it was moved, deleted or renamed, Do you wish to remove it from the list?</string>
 
 
-    <string name="no_items">No hay canciones en la lista.</string>
-    <string name="faq">Preguntas frecuentes</string>
+    <string name="no_items">There are no songs in the list.</string>
+    <string name="faq">Frequently Asked Questions </string>
 
-    <string name="play_track">Escuchar</string>
-    <string name="confirm_correction_title">Modo automático</string>
-    <string name="confirm_correction">Selecciona modo de correción para </string>
-    <string name="manual_mode">Modo manual</string>
+    <string name="play_track">Listen</string>
+    <string name="confirm_correction_title">Automatic Mode </string>
+    <string name="confirm_correction">Fix automatically </string>
+    <string name="manual_mode">Manual mode </string>
 
-    <string name="snackbar_message_track_preview">Presiona para detener.</string>
-    <string name="snackbar_message_track_is_processing">No puedes reproducir la canción mientras se corrige.</string>
-    <string name="permission_denied">No se obtuvo el permiso requerido.</string>
-    <string name="current_file_processing">Espera que el modo automático corrija esta canción.</string>
-    <string name="initializing_recognition_api">Conectando al servicio de reconocimiento, espera por favor...</string>
-    <string name="no_internet_connection_download_cover">Para descargar la carátula conectate internet.</string>
-    <string name="no_internet_connection_automatic_mode">Para usar el modo automático conectate a internet.</string>
-    <string name="no_internet_connection_semi_automatic_mode">Para usar el modo semi automático conectate a internet.</string>
-    <string name="no_items_found">No se encontrarón canciones.</string>
+    <string name="snackbar_message_track_preview">Press to stop.</string>
+    <string name="snackbar_message_track_is_processing">You can’t play the song while it’s being fixed.</string>
+    <string name="permission_denied">Required permission not granted.</string>
+    <string name="current_file_processing">Wait until automatic mode fixes this song.</string>
+    <string name="initializing_recognition_api">Logging into the search service, please wait...</string>
+    <string name="no_internet_connection_download_cover">To download the cover connect to the internet.</string>
+    <string name="no_internet_connection_automatic_mode">To use the automatic mode connect to the internet.</string>
+    <string name="no_internet_connection_semi_automatic_mode">To use the semi automatic mode connect to the internet.</string>
+    <string name="no_items_found">No songs were found.</string>
 
-    <string name="file_status_ok">Todas las etiquetas se encontraron y aplicaron.</string>
-    <string name="file_status_incomplete">Faltaron algunas etiquetas, prueba a añadirlas manualmente.</string>
-    <string name="file_status_bad">Sin etiquetas disponibles, prueba a añadirlas manualmente.</string>
-    <string name="file_status_no_processed">Aún no se han buscado etiquetas para esta canción.</string>
-    <string name="file_status_edit_by_user">Canción corregida en modo manual.</string>
+    <string name="file_status_ok">All the labels were found and applied.</string>
+    <string name="file_status_incomplete">Some labels are missing, try to manually add them.</string>
+    <string name="file_status_bad">Without available labels, try to manually add them.</string>
+    <string name="file_status_no_processed">Labels have not been looked for this song.</string>
+    <string name="file_status_edit_by_user">Song fixed in manual mode.</string>
 
-    <string name="no_songs_to_correct">Selecciona canciones para usar el modo automático.</string>
-    <string name="begin_processing">Iniciando corrección…</string>
-    <string name="querying_info_">Solicitando información de canción…</string>
-    <string name="complete_identification">Identificación completa.</string>
-    <string name="title_activity_settings">Configuración</string>
+    <string name="no_songs_to_correct">Select songs to use automatic mode.</string>
+    <string name="begin_processing">Beginning correction …</string>
+    <string name="querying_info_">requesting information about the song …</string>
+    <string name="complete_identification">Complete identification.</string>
+    <string name="title_activity_settings">Settings</string>
 
 
     <!-- Strings related to Settings -->
@@ -87,45 +87,45 @@
     <!-- General settings -->
     <string name="pref_header_general">General</string>
 
-    <string name="pref_title_change">Renombrar archivo</string>
-    <string name="pref_title_change_description">El título (si se encuentra) se aplicará como nombre del archivo; se añadirá el nombre del artista más/ó un número aleatorio, en caso que un archivo con nombre igual ya exista.
+    <string name="pref_title_change">Rename file </string>
+    <string name="pref_title_change_description">The title (if found) will be applied as the filename; the artist name and/or a random number will be added, in case a file with the same name already exists.
     </string>
-    <string name="pref_manual_title_change">Renombrar archivo</string>
-    <string name="pref_manual_title_change_description">El título que hayas escrito se aplicará como nombre del archivo; se añadirá el nombre del artista más/ó un número aleatorio, en caso que un archivo con nombre igual ya exista.
+    <string name="pref_manual_title_change">Rename file </string>
+    <string name="pref_manual_title_change_description">The title that you’ve written will be applied as the filename; the name of the artist and/or a random number will be added, in case a file with the same name already exists.
     </string>
-    <string name="pref_semi_automatic_title_change">Renombrar archivo</string>
-    <string name="pref_semi_automatic_title_change_description">El título (si se encuentra) se aplicará como nombre del archivo cuando guardes los cambios; se añadirá el nombre del artista más/ó un número aleatorio, en caso que un archivo con nombre igual ya exista.
+    <string name="pref_semi_automatic_title_change">Rename file </string>
+    <string name="pref_semi_automatic_title_change_description">The title (if found) will be applied as the filename when you save the changes; the name of the artist and/or a random number will be added, in case a file with the same name already exists.
 
     </string>
-    <string name="pref_automatically_replace_strange_chars">Remover caracteres inválidos</string>
-    <string name="pref_automatically_replace_strange_chars_description">Se eliminan automaticamente al guardar los cambios.</string>
-    <string name="pref_title_background">Usar corrección en segundo plano</string>
-    <string name="pref_title_background_description">La corrección de canciones no se cancelerá aún cuando cierres la aplicación, sino hasta que termine o la detengas; se mostrara una notificación con el progreso.</string>
+    <string name="pref_automatically_replace_strange_chars">Remove invalid characters </string>
+    <string name="pref_automatically_replace_strange_chars_description">They’re deleted automatically when saving changes.</string>
+    <string name="pref_title_background">background services </string>
+    <string name="pref_title_background_description">A correction of multiple songs will not be canceled when you close the app, but until it finishes or you stop it.</string>
 
     <string name="enable_embed_player">Multimedia</string>
-    <string name="pref_title_enable_embed_player">Usar reproductor integrado</string>
-    <string name="pref_enable_embed_player_description">Escuchar canción en el reproductor integrado.</string>
+    <string name="pref_title_enable_embed_player">Built-in player </string>
+    <string name="pref_enable_embed_player_description">Listen song in the built-in player.</string>
 
-    <string name="pref_title_replace_all_tags">Sobreescribir etiquetas</string>
-    <string name="pref_replace_auto_all_tags_description">Si esta activa esta opción se reemplazarán todas las etiquetas por las encontradas, sino, solo se añadiran las faltantes.</string>
+    <string name="pref_title_replace_all_tags">Overwrite labels</string>
+    <string name="pref_replace_auto_all_tags_description">If you enable this option all the labels will be replaced by the ones found, if not, only the missing ones will be added.</string>
 
-    <string name="default_order_sort">Orden predeterminado de lista</string>
-    <string name="pref_title_default_sort">Ordenar por</string>
+    <string name="default_order_sort">Default list order </string>
+    <string name="pref_title_default_sort">Sort by </string>
 
     <!--This is going to be in seconds-->
 
     <!-- Settings for Data save -->
-    <string name="pref_header_size_album_art">Consumo de datos</string>
+    <string name="pref_header_size_album_art">Data consumption </string>
 
-    <string name="pref_title_size_album_art">Descargar carátula</string>
+    <string name="pref_title_size_album_art">Download label </string>
     <string-array name="pref_size_album_art_titles">
-        <item>No descargar</item>
-        <item>De la menor calidad disponible</item>
-        <item>De baja calidad</item>
-        <item>De media calidad</item>
-        <item>De alta calidad</item>
-        <item>De muy alta calidad</item>
-        <item>De la mejor calidad disponible</item>
+        <item>Don’t download </item>
+        <item>The lowest possible quality </item>
+        <item>Low quality </item>
+        <item>Medium quality </item>
+        <item>High quality </item>
+        <item>Very high quality </item>
+        <item>The highest available quality </item>
     </string-array>
     <string-array name="pref_size_album_art_values">
         <item>-1</item>
@@ -137,12 +137,12 @@
         <item>1000</item>
     </string-array>
 
-    <string name="default_sort">Ordenar por</string>
+    <string name="default_sort">Sort by </string>
     <string-array name="pref_sort_titles">
-        <item>Ubicación de archivo</item>
-        <item>Título</item>
-        <item>Artista</item>
-        <item>Álbum</item>
+        <item>File location </item>
+        <item>Title</item>
+        <item>Artist</item>
+        <item>Album</item>
     </string-array>
     <string-array name="pref_sort_values">
         <item>0</item>
@@ -152,14 +152,13 @@
     </string-array>
 
 
-    <string name="info_found">Se encontraron las siguientes etiquetas.</string>
-    <string name="incomplete_info_found">Faltaron algunas etiquetas para </string>
-    <string name="cancel_task">¿Desea cancelar la corrección en curso?</string>
-    <string name="cancelling">Cancelando...</string>
-    <string name="processing_task">Espera a que termine la corrección en modo automático.</string>
-    <string name="api_initialized">Conectado. Toca cualquier canción para corregirla.</string>
-    <string name="api_initialized2">Conectado.</string>
-    <string name="remove_from_list">Remover</string>
+    <string name="info_found">The following labels were found.</string>
+    <string name="incomplete_info_found">some labels were missing for</string>
+    <string name="cancel_task">Do you wish to cancel the current correction?</string>
+    <string name="cancelling">Cancelling...</string>
+    <string name="processing_task">Wait until the automatic mode correction finishes.</string>
+    <string name="api_initialized">Connected to the search service.</string>
+    <string name="remove_from_list">Remove</string>
 
     <string name="question_1">¿Lorem ipsum dolor sit amet?</string>
     <string name="answer_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -168,126 +167,113 @@
         Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
         Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
     <string name="mp3_type">mp3</string>
-    <string name="title_remove_cover_art_dialog">Remover carátula</string>
-    <string name="message_remove_cover_art_dialog">¿Estas seguro de querer remover la carátula?</string>
-    <string name="message_removed_selected">¿Confirmas que deseas eliminar de la lista las canciones seleccionadas?</string>
-    <string name="title_removed_selected">Eliminar</string>
-    <string name="hearing">Escuchando</string>
-    <string name="updated_list">Lista actualizada.</string>
-    <string name="getting_data">Obteniendo información de canciones...</string>
-    <string name="in_development">En desarrollo.</string>
-    <string name="updating_list">Actualizando lista...</string>
-    <string name="removed_inexistent"> cancion(es) fue(ron) removido(s) de la lista debido a que ya no esta(n) en tu smartphone.</string>
-    <string name="new_files_found"> cancion(es) nueva(s) se han encontrado y añadido al inicio de la lista.</string>
-    <string name="add_cover">Añadir de galería</string>
-    <string name="automatic_mode">Modo automático</string>
-    <string name="edit_cover">Añadir carátula de galería</string>
-    <string name="update_list">Buscar nuevas</string>
-    <string name="already_updating_list">Actualización en curso.</string>
-    <string name="not_created_list">No esta disponible la lista aún.</string>
-    <string name="downloading_tags">Buscando etiquetas...</string>
-    <string name="downloading_cover">Buscando carátula...</string>
-    <string name="album">Álbum</string>
-    <string name="genre">Género</string>
-    <string name="track_number">Número de pista</string>
-    <string name="title">Título</string>
-    <string name="artist">Artista</string>
-    <string name="track_year">Año de publicación</string>
-    <string name="dimensions">Tamaño</string>
-    <string name="apply_tags">Etiquetas nuevas</string>
-    <string name="message_apply_found_tags">¿Qué etiquetas deseas aplicar a la canción?</string>
-    <string name="message_apply_new_tags">¿Deseas aplicar los cambios a la canción?</string>
-    <string name="swipe_up_search">Desliza hacia abajo para volver a buscar.</string>
-    <string name="message_no_cover">Sin carátula</string>
-    <string name="tracks">canciones</string>
-    <string name="fixing_task">Corrigiendo canciones.</string>
-    <string name="cover_saved">Carátula guardada en</string>
-    <string name="cover_extracted">Carátula extraida.</string>
-    <string name="cover_not_saved">No se pudo guardar la carátula.</string>
-    <string name="web_search">Buscar en Internet</string>
-    <string name="view_cover">Ver</string>
-    <string name="play_track_on">Escuchar en</string>
-    <string name="semi_automatic_mode">Modo semiautomático</string>
-    <string name="sort_by">Ordenar por</string>
-    <string name="location">Ubicación</string>
-    <string name="could_not_read_file">No se pueden leer las etiquetas de este archivo: </string>
-    <string name="does_not_exist_cover">La canción no tiene carátula.</string>
-    <string name="can_not_extract_null_cover">No hay carátula para extraer.</string>
-    <string name="error">Ha ocurrido un error, inténtalo de nuevo.</string>
-    <string name="api_error">Ha ocurrido un error: </string>
-    <string name="update_missing">Se añadieron las etiquetas faltantes.</string>
-    <string name="share_message">corrigio mis canciones de manera fácil, rápida y automática!</string>
-    <string name="correction_mode">Modo de corrección</string>
-    <string name="select_correction_mode">Selecciona modo de corrección para</string>
+    <string name="title_remove_cover_art_dialog">Remove cover</string>
+    <string name="message_remove_cover_art_dialog">Are you sure you want to remove the cover?</string>
+    <string name="message_removed_selected">Do you confirm you wish to delete from the list the selected songs?</string>
+    <string name="title_removed_selected">Delete</string>
+    <string name="hearing">Listening</string>
+    <string name="updated_list">Updated list.</string>
+    <string name="getting_data">Obtaining information about songs...</string>
+    <string name="in_development">In development.</string>
+    <string name="updating_list">Updating list...</string>
+    <string name="removed_inexistent"> the song(s) was(were) deleted from the list because it’s (they’re) not in your smartphone anymore.</string>
+    <string name="new_files_found"> New song(s) found and added at the beginning of the list.</string>
+    <string name="add_cover">Gallery</string>
+    <string name="automatic_mode">Automatic mode </string>
+    <string name="edit_cover">Add cover to the gallery </string>
+    <string name="update_list">Update list </string>
+    <string name="already_updating_list">Update in progress.</string>
+    <string name="not_created_list">Not available in the list yet.</string>
+    <string name="downloading_tags">Looking for labels...</string>
+    <string name="downloading_cover">looking for covers...</string>
+    <string name="album">Album</string>
+    <string name="genre">Genre</string>
+    <string name="track_number">Track number </string>
+    <string name="title">Title</string>
+    <string name="artist">Artist</string>
+    <string name="track_year">Year of Publishing </string>
+    <string name="dimensions">Size</string>
+    <string name="apply_tags">New labels </string>
+    <string name="message_apply_found_tags">Which labels do you wish to apply to the song?</string>
+    <string name="message_apply_new_tags">Do you wish to apply the changes to the song?</string>
+    <string name="swipe_up_search">Swipe down to search again.</string>
+    <string name="message_no_cover">Without cover </string>
+    <string name="tracks">songs</string>
+    <string name="fixing_task">Fixing songs.</string>
+    <string name="cover_saved">Cover saved in </string>
+    <string name="cover_extracted">Cover extracted.</string>
+    <string name="cover_not_saved">The cover could not be saved.</string>
+    <string name="web_search">Search on the Internet</string>
+    <string name="view_cover">View</string>
+    <string name="play_track_on">Listen in </string>
+    <string name="semi_automatic_mode">Semiautomatic Mode</string>
+    <string name="sort_by">Sort by </string>
+    <string name="location">Location</string>
+    <string name="could_not_read_file">The labels in this file could not be read. </string>
+    <string name="does_not_exist_cover">The song has no labels.</string>
+    <string name="can_not_extract_null_cover">It’s not possible to extract a non-existent cover.</string>
+    <string name="error">An error has occurred, try again.</string>
+    <string name="update_missing">the missing labels were added.</string>
+    <string name="share_message">it fixed my songs easy and automatically!</string>
+    <string name="correction_mode">Correction mode </string>
+    <string name="select_correction_mode">Select the correction mode for </string>
     <string name="manual">Manual</string>
-    <string name="automatic">Automático</string>
-    <string name="semiautomatic">Semiautomático</string>
-    <string name="file_status_error_read">No se pueden leer las etiquetas de este archivo de audio.</string>
-    <string name="descendent">Descendente</string>
-    <string name="ascendent">Ascendente</string>
-    <string name="about">Sobre AutoMusicTagFixer</string>
-    <string name="title_activity_about">Sobre la app</string>
-    <string name="developed_by">Desarrollada por</string>
-    <string name="developer">Dark Yellow Studios</string>
-    <string name="technologies_used">Esta aplicación hace uso de las siguientes librerías, tecnologías y recursos:</string>
+    <string name="automatic">Automatic</string>
+    <string name="semiautomatic">Semiautomatic</string>
+    <string name="file_status_error_read">The file labels could not be read.</string>
+    <string name="descendent">Descendent</string>
+    <string name="ascendent">Ascendent</string>
+    <string name="about">About Auto Music</string>
+    <string name="title_activity_about">About the app</string>
+    <string name="developed_by" translatable="false">© GNU GPL 2017 Dark Yellow Studios</string>
+    <string name="technologies_used">This app makes use of the following libraries, technologies and resources:</string>
 
     <string-array name="questions">
-        <item>1. ¿Cómo funciona la aplicación?</item>
-        <item>2. ¿Por qué me pide acceder a mis fotos y demás contenido de mi smartphone?</item>
-        <item>3. ¿Cómo se usa?</item>
-        <item>4. ¿Qué es el modo automático?</item>
-        <item>5. ¿Qué es el modo semi automático?</item>
-        <item>6. ¿Qué es el modo manual?</item>
-        <item>7. ¿Qué tipos de archivo de audio puedo corregír?</item>
-        <item>8. ¿Qué costo tiene la aplicación?</item>
-        <item>9. ¿Por qué la información de algunas canciones en la lista no coincide con la del detalle?</item>
-        <item>10. ¿Cuántas canciones puedo corregir?</item>
-        <item>11. ¿Por qué solo puedo editar 8 etiquetas(incluyendo la carátula)?</item>
-        <item>12. La aplicación no detecta mis canciones</item>
-        <item>13. La aplicación no encuentra los datos de mi canción o los encontrados probablemente no son correctos.</item>
-        <item>14. La aplicación no encuentra la carátula de mi canción.</item>
-        <item>15. ¿Cuánto tarda en identificar una canción?</item>
-        <item>16. ¿Qué pasa si cierro la aplicación mientras estoy corrigiendo varias canciones?</item>
-        <item>17. ¿Que pasa si me quedo sin internet?</item>
+        <item>1. How does the app work?</item>
+        <item>2. Why does it ask to access my pictures and other content in my smartphone?</item>
+        <item>3. How is it used?</item>
+        <item>4. What is automatic mode?</item>
+        <item>5. What is semiautomatic mode?</item>
+        <item>6. What is manual mode?</item>
+        <item>7. Which kind of audio files can I fix?</item>
+        <item>8. How much does the app cost?</item>
+        <item>9. Why does the information in the list not match with the details of each song?</item>
+        <item>10. How many songs can I fix?</item>
+        <item>11. Why can I edit only 8 labels(including cover)?</item>
+        <item>12. The app doesn’t detect my songs </item>
+        <item>13. The app doesn’t find the data of my song or what it found is probably incorrect.</item>
+        <item>14. The app doesn’t find the cover for my song.</item>
+        <item>15. How long does it take to identify a song?</item>
+        <item>16. What happens if I close the app while I’m fixing multiple songs?</item>
     </string-array>
     <string-array name="answers">
-        <item>Para cada canción que tienes en tu smartphone, genera una huella digital del audio, posteriormente, consulta en un base de datos esa huella y obtiene la información correspondiente de la canción.</item>
-        <item>Debido a que las canciones se almacenan en la memoria, ya sea interna o externa de tu smartphone, es necesario el permiso para poder leerlas; es el único permiso requerido, de lo contrario, la aplicación no tendrá funcionalidad útil.</item>
-        <item>Solo toca una canción de la lista y elige el modo de corrección, o si prefieres, puedes chequear las que quieras corregir y posteriormente oprimir el floating action button amarillo de la esquina inferior derecha para corregir esas canciones en modo automático.</item>
-        <item>Es el modo en el cual tu chequeas las canciones que quieres corregir, oprimes el botón amarillo, y la aplicación corrige por ti cada canción, incluido el nombre del archivo (puedes desactivar esta opción en la Configuración), no tienes que hacer nada, solo esperar a que termine. Ten en cuenta que este modo no requiere tu intervención.</item>
-        <item>Este modo obtendrá la información de la canción, pero no modificará la canción hasta que tu la apliques.</item>
-        <item>El modo manual te permite corregir por ti mismo las etiquetas de cada canción, incluida la caŕatula, si es que tienes la información a la mano. Toca la carátula de cada canción de la lista para más opciones.</item>
-        <item>Actualmente Mp3, Mp4 (Mp4 audio, M4a y M4p audio) Ogg Vorbis, Flac, Wma y limitado soporte a Wav y Real audio, que son los que soporta la librería JAudioTagger. Aunque podrían ser menos formatos ya que Android no soporta algunos tipos de audio de manera nativa, por ejemplo Wma; en futuras actualizaciones de la aplicación se soportará la totalidad de tipos de archivo.</item>
-        <item>Ninguno, pero esta sujeto a a un limite de corrección de archivos.</item>
-        <item>Por rendimiento y velocidad de apertura, AutoMusicTagFixer para generar la lista por primera vez(la lista es informativa y punto de partida para las operaciones), lee la información de cada archivo de audio de la MediaStore (una BD interna de Android), por lo tanto, la información obtenida de aquí no siempre es muy precisa. AutoMusicTagFixer cuando muestra la información detallada de cada canción, lee directamente el archivo de audio, lo cual esta información leida si es precisa; no te preocupes, AutoMusicTagFixer hace las correcciones sobre el archivo en sí, por lo que tus canciones serán corregidas de manera correcta.</item>
-        <item>Debido a que la aplicación utiliza una licencia gratis del servicio de reconocimiento de audio, la cantidad de canciones que puedes corregir es variable, desde unas cuantas hasta probablemente miles.</item>
-        <item>Son más de 35 etiquetas estándar, una cantidad considerable y fuera del alcance de esta aplicación, por lo que se ofrece corrección a las más comunes.</item>
-        <item>Puede deberse a que concediste el permiso de acceso al almacenamiento interno/externo ó, el tipo de audio no es uno soportado por Android y/ó la librería ó, el archivo no tiene una extension en el nombre.</item>
-        <item>La aplicación consulta una base de datos con información de 200 millones de canciones (http://www.gracenote.com/music/music-recognition/), por lo que es probable
-        que la canción que estas tratando de corregir, haya sido descargada/convertida de una fuente de audio de baja calidad y la huella digital generada es inexistente, por favor intenta descargar/convertir con mayor
-        calidad tus canciones o corrígela manualmente.</item>
-        <item>Revisa en las opciones de Configuración->Consumo de datos y selecciona otro tamaño de carátula, no todos los tamaños están disponibles para cada canción.</item>
-        <item>Depende de la conexión a la red, si es buena, tardará entre unos 5 a 10 segundos; si la conexión es lenta puede demorar más.</item>
-        <item>La corrección de canciones puede funcionar en segundo plano en el modo automático (puedes desactivar esta opción en Configuración), y asi la corrección seguirá hasta que termine o la detengas.
-        Si esta opción no esta activa se cancelará el proceso de corrección cuando la cierres. Para los demás modos, la corrección se interrumpirá si cierras la aplicación.</item>
-        <item>AutoMusicTagFixer comprueba el estado de la red y la conexión a internet, por lo que si no detecta una conexión no funcionará el modo automático, semiautomático y descarga de carátula; si esta en curso una corrección
-        simplemente se cancelará la corrección. El modo manual no requiere internet.</item>
+        <item>For each song you have on your smartphone, it generates a digital fingerprint of the audio, after that, it looks in a database for that fingerprint and obtains the corresponding information about the song.</item>
+        <item>Because some songs are stored in memory, internal or external of your smartphone, the permission is necessary to be able to read them; it’s the only permission required, otherwise, the app would have no useful functionality.</item>
+        <item>Just touch a song from the list and choose the correction method, or if you want, you can check which ones you want to fix and after that press the yellow button in the lower right corner to fix those songs in automatic mode.</item>
+        <item>It is the mode where you check the songs you want to fix, press he yellow button, and the app fixes each song for you, including the filename (verify the configuration options if this option is enabled), you don’t have to do anything, just wait until it finishes. Take into account that this method doesn’t require your intervention. NOTE: The file renaming will be applied to every one being fixed at the moment.</item>
+        <item>This mode will obtain the information about the song, but won’t apply any change until you apply them.</item>
+        <item>The manual mode allows you to fix by yourself the labels in each song, including the cover, if you have that information at hand. Touch the cover of each song in the list for more options.</item>
+        <item>Currently Mp3, Mp4 (Mp4 audio, M4a y M4p audio) Ogg Vorbis, Flac, Wma and limited support for Wav and Real audio, which are the ones supported by the JAudioTagger library. But there could be fewer formats because Android doesn’t support some audio formats natively, for example Wma; in future update the complete file types will be supported.</item>
+        <item>None, but subject to a limit in file corrections.</item>
+        <item>For performance and loading speed, Auto Music reads the information of each file from MediaStore (Android’s internal DB), because of that, the information shown in each song in the list is what is obtained from this database, and because of the obtaining mechanisms between Android and Auto Music when it shows the detailed information of each song, this could vary a little, but at the end the information that is corrected in any case will be correct.</item>
+        <item>Because the app uses a free license of the recognition service, the amount of songs that you can fix varies, from a little to probably thousands.</item>
+        <item>There are more than 35 standard labels, a considerable amount and out of reach of this app, so what is offered is correction for the most important ones.</item>
+        <item>It can be because permission was not granted to access the storage or, the kind of audio is not supported by Android and/or the library or, the file doesn’t have an extension in the name.</item>
+        <item>The app consults a database with information of 200 million songs (http://www.gracenote.com/music/music-recognition/), so it’s probable that the song you’re trying to correct, has been downloaded/converted from a low quality audio source and the generated digital finger print is non-existent, try to download /convert with more quality your songs or correct it manually.</item>
+        <item>Check in the Settings options, in Data consumption and select another cover size, not all the sizes are available for each song.</item>
+        <item>It depends on the web connection, if it’s good, it will take from 5 to 10 seconds; if the connection is slow it can take more.</item>
+        <item>The app can work in the background in automatic mode (you have to enable this option in the Settings), that way the correction will continue until it finishes or you stop it.
+        If this option is not active the correction process will be canceled when you close it. For the other modes, the correction will be interrupted if you close the app.</item>
     </string-array>
     <string name="title_activity_scrolling_about">ScrollingAboutActivity</string>
-    <string name="not_supported">Tipo no soportado</string>
-    <string name="file_status_corrected_by_semiautomatic_mode">Etiquetas corregidas por el modo semiautomatico.</string>
-    <string name="connection_lost">Se ha perdido la conexión a Internet.</string>
-    <string name="connection_recovered">Se ha reestablecido la conexión.</string>
-    <string name="task_cancelled">Corrección cancelada.</string>
-    <string name="checking_internet_connection">Verificando conexión a internet.</string>
-    <string name="start">Iniciar</string>
-    <string name="stop">Detener</string>
-
-    <string name="title_activity_fullscreen_viewer">FullscreenViewerActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="title_extract_cover">Extraer carátula</string>
-    <string name="could_not_init_api">No se ha podido iniciar la API:</string>
+    <string name="not_supported">Type not supported </string>
+    <string name="file_status_corrected_by_semiautomatic_mode">Corrected labels by semiautomatic mode.</string>
+    <string name="connection_lost">There’s no available Internet connection or it was lost.</string>
+    <string name="task_cancelled">Correction canceled.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="new_labels_all">All</string>
+    <string name="new_labels_missing">Missing</string>
 
 
 </resources>
